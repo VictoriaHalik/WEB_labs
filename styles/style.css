@@ -38,6 +38,24 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #222e40), color-stop(100%, #51c3b8));
 }
 
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3eb5a9), to(#6fe2cc));
+  background: linear-gradient(0deg, #3eb5a9 0%, #6fe2cc 100%);
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0;
+}
+
 .h3-style {
   font-size: 1.17em;
 }
