@@ -38,7 +38,6 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #222e40), color-stop(100%, #51c3b8));
 }
 
-/* LOGIN */
 .workspace {
   margin: 0;
   width: 100%;
@@ -68,6 +67,7 @@ body {
   margin: 0 auto;
   padding-top: 40px;
   width: 100%;
+  height: 30%;
   overflow: auto;
   background: linear-gradient(42deg, #2a2e36 0%, #616b7d 100%);
 }
@@ -124,7 +124,7 @@ body {
   float: none;
   margin: 0 auto;
   width: 100%;
-  height: 40px;
+  height: 30%;
   background: -webkit-gradient(linear, left bottom, left top, from(#3eb5a9), to(#6fe2cc));
   background: linear-gradient(0deg, #3eb5a9 0%, #6fe2cc 100%);
   -webkit-box-shadow: none;
@@ -356,8 +356,18 @@ input {
     margin: auto;
     border-radius: 10px;
   }
+  .content {
+    padding-top: 2%;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30%;
+    -webkit-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+            box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+    border-radius: 10px 10px 0 0;
+  }
   #slideshow h2 {
-    margin: 4.5em 0 1em;
+    margin: 2em 0 1em;
     font-size: 1.5em;
   }
   #slideshow h2 span {
@@ -381,16 +391,7 @@ input {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-  .content {
-    position: relative;
-    float: left;
-    width: 50%;
-    height: 500px;
-    -webkit-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
-            box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
-    border-radius: 10px 0 0 10px;
-  }
-  .content.full {
+  .credit.full {
     position: relative;
     float: left;
     width: 50%;
@@ -402,11 +403,11 @@ input {
   .user {
     padding-top: 0;
     float: left;
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 75vh;
     -webkit-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
             box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 10px 10px;
     border: 0;
   }
   .user .actions {
@@ -430,9 +431,8 @@ input {
     font-size: 1.0rem;
   }
   .content {
-    float: left;
+    float: center;
     width: 100%;
-    height: auto;
   }
   .content.full {
     float: left;
@@ -452,14 +452,20 @@ input {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+  .content {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 550px;
+    -webkit-box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+            box-shadow: -3px 0px 45px -6px rgba(56, 75, 99, 0.61);
+    border-radius: 10px 0 0 10px;
+  }
   .wrap {
     width: 900px;
     height: 550px;
   }
-  .content {
-    height: 550px;
-  }
-  .content.full {
+  .wrap.full {
     height: 550px;
   }
   .terms, .recovery {
@@ -467,6 +473,8 @@ input {
   }
   .user {
     height: 550px;
+    width: 50%;
+    border-radius: 0 10px 10px 0;
   }
   .form-wrap {
     margin: 1rem 0;
