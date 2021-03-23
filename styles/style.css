@@ -4,12 +4,12 @@ html {
 }
 
 a {
-  color: #2a2e36;
+  color: #212529;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2a2e36;
+  color: #212529;
 }
 
 * {
@@ -67,11 +67,11 @@ body {
   font-size: 18p;
   color: #6fe2cc;
   line-height: 23px;
-  background-color: #2a2e36;
+  background-color: #212529;
 }
 
 .text-muted {
-  color: #2a2e36;
+  color: #212529;
 }
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
@@ -98,6 +98,18 @@ body {
 
 .h3-style {
   font-size: 1.17em;
+}
+
+.img-holder {
+  width: 100%;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer {
@@ -139,22 +151,6 @@ body {
   padding: 0 3% 0 20%;
 }
 
-.logo {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  background: #4FC1B7;
-}
-
-.logo a {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
 .form-select-filter {
   display: block;
   width: 100%;
@@ -179,7 +175,7 @@ body {
   display: block;
   width: 100%;
   color: white;
-  background-color: #2a2e36;
+  background-color: #212529;
   opacity: 50%;
 }
 
@@ -287,7 +283,6 @@ body {
 }
 
 #slideshow div {
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
