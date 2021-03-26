@@ -70,6 +70,10 @@ body {
   background-color: #212529;
 }
 
+.error-text {
+  font-size: 12px;
+}
+
 .text-muted {
   color: #212529;
 }
@@ -273,12 +277,12 @@ img {
   margin: .0em auto .0em auto;
   text-align: center;
   font-size: 1.4em;
-  color: #fff;
+  color: white;
   line-height: .5em;
 }
 
 #slideshow p {
-  color: #fff;
+  color: white;
   display: none;
 }
 
@@ -304,14 +308,14 @@ img {
   display: inline-blocks;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #5A6374;
+  border-bottom: 1px solid #616b7d;
   outline: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -moz-box-sizing: border-box;
   color: inherit;
   font-family: inherit;
-  color: #fff;
+  color: white;
 }
 
 input {
@@ -326,11 +330,11 @@ input {
 .form-wrap a {
   color: white;
   padding-bottom: 4px;
-  border-bottom: 1px solid #5FD1C1;
+  border-bottom: 1px solid #6fe2cc;
 }
 
 .form-wrap a:hover {
-  color: #fff;
+  color: white;
 }
 
 .form-wrap .tabs h3 {
@@ -343,17 +347,17 @@ input {
   text-align: center;
   font-weight: 400;
   display: block;
-  color: #999;
+  color: #616b7d;
   border: 0;
 }
 
 .form-wrap .tabs h3 a.active {
-  color: #ccc;
+  color: #616b7d;
 }
 
 .form-wrap .tabs h3 a.active span {
   padding-bottom: 4px;
-  border-bottom: 1px solid #5FD1C1;
+  border-bottom: 1px solid #6fe2cc;
 }
 
 .form-wrap .tabs-content .active {
@@ -366,14 +370,14 @@ input {
   display: inline-blocks;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #5A6374;
+  border-bottom: 1px solid #212529;
   outline: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -moz-box-sizing: border-box;
   color: inherit;
   font-family: inherit;
-  color: #fff;
+  color: white;
 }
 
 .form-wrap form .button {
@@ -385,7 +389,7 @@ input {
   background: -webkit-gradient(linear, left bottom, left top, from(#3eb5a9), to(#6fe2cc));
   background: linear-gradient(0deg, #3eb5a9 0%, #6fe2cc 100%);
   border: none;
-  color: #fff;
+  color: white;
   cursor: pointer;
   font-size: .8em;
   border-radius: 30px;
@@ -453,7 +457,7 @@ input {
   }
   #slideshow h2 span {
     padding: 5px 0;
-    border: solid #B6EDE3;
+    border: solid #6fe2cc;
     border-width: 1px 0;
   }
   #slideshow p {

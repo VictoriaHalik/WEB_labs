@@ -12,7 +12,6 @@
             <div class="navbar-collapse">
                 <div class="navbar-collapse justify-content-between">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./user_profile.html">Profile</a></li>
                         <li class="nav-item"><a class="nav-link" href="./credits.html">Credits</a></li>
                         <li class="nav-item"><a class="nav-link active" href="./credit_creation.html">Create credit</a></li>
@@ -35,6 +34,9 @@
                 <div class="tabs-content">
                     <div class="active">
                         <form class="signup-form" action="" method="post">
+                            <div class="error-text invalid-feedback d-block lh-1">
+                                There isn't enough money in the budget
+                            </div>
                             <input type="number" class="input" autocomplete="off" placeholder="Sum of money">
                             <input type="number" class="input" autocomplete="off" placeholder="Period of months">
                             <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Confirm password">
