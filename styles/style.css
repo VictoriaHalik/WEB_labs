@@ -511,6 +511,9 @@ input {
     padding: 1.0rem 2.8rem;
     font-size: 1.0rem;
   }
+  .credit {
+    margin-left: 10%;
+  }
   .content {
     float: center;
     width: 100%;
