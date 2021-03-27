@@ -1,1 +1,2 @@
-# WEB_labs
+# Lab  №1
+Static pages layout
